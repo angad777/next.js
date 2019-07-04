@@ -8083,12 +8083,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@4.17.10:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-  integrity sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
-
-lodash@^4.0.0, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.8.0, lodash@~4.17.10:
+lodash@4.17.11, lodash@^4.0.0, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.8.0, lodash@~4.17.10:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
@@ -10920,7 +10915,7 @@ request@2.87.0:
     tunnel-agent "^0.6.0"
     uuid "^3.1.0"
 
-request@^2.85.0, request@^2.87.0, request@^2.88.0:
+request@2.88.0, request@^2.85.0, request@^2.87.0, request@^2.88.0:
   version "2.88.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
   integrity sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
@@ -12935,17 +12930,17 @@ wcwidth@^1.0.0, wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-wd@1.10.3:
-  version "1.10.3"
-  resolved "https://registry.yarnpkg.com/wd/-/wd-1.10.3.tgz#395ac7eb58a98e556369f8f8e5f845d91fb152a3"
-  integrity sha512-ffqqZDtFFLeg5u/4pw2vYKECW+z+vW6vc+7rcqF15uu1/rmw3BydV84BONNc9DIcQ5Z7gQFS/hAuMvj53eVtSg==
+wd@1.11.2:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/wd/-/wd-1.11.2.tgz#bca2a47ce9a866710e2db8c802385d06bc964444"
+  integrity sha512-zXJY9ARjQQYN2LatLTRcW39EYzIVqKNhGpp4XWJmRgHBioG4FoenIOsoVbaO8lnFGgv31V99kAy5hB4eWGIwzA==
   dependencies:
     archiver "2.1.1"
     async "2.0.1"
-    lodash "4.17.10"
+    lodash "4.17.11"
     mkdirp "^0.5.1"
     q "1.4.1"
-    request "2.85.0"
+    request "2.88.0"
     vargs "0.1.0"
 
 webidl-conversions@^4.0.2:
