@@ -1553,12 +1553,12 @@
     "@babel/parser" "^7.1.0"
     "@babel/types" "^7.0.0"
 
-"@types/babel__traverse@7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@types/babel__traverse/-/babel__traverse-7.0.3.tgz#557b972fbee765cc0a07604dd2412bfffc9f2059"
-  integrity sha512-ofbx/5B7apFTkYjxFNtOWhUYKrJWMLA0MQxnHR/kuNB8Hlnkf1Ab22uvmJS1kfAvQK7PXkgC7C04JXdhL8NbFA==
+"@types/babel__traverse@7.0.9":
+  version "7.0.9"
+  resolved "https://registry.yarnpkg.com/@types/babel__traverse/-/babel__traverse-7.0.9.tgz#be82fab304b141c3eee81a4ce3b034d0eba1590a"
+  integrity sha512-jEFQ8L1tuvPjOI8lnpaf73oCJe+aoxL6ygqSy6c8LcW98zaC+4mzWuQIRCEvKeCOu+lbqdXcg4Uqmm1S8AP1tw==
   dependencies:
-    "@babel/types" "^7.0.0"
+    "@babel/types" "^7.3.0"
 
 "@types/cross-spawn@6.0.0":
   version "6.0.0"
