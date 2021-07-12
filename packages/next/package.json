@@ -161,7 +161,7 @@
     "@types/babel__core": "7.1.12",
     "@types/babel__generator": "7.6.2",
     "@types/babel__template": "7.4.0",
-    "@types/babel__traverse": "7.11.0",
+    "@types/babel__traverse": "7.14.2",
     "@types/ci-info": "2.0.0",
     "@types/compression": "0.0.36",
     "@types/content-type": "1.1.3",
