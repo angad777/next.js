@@ -1,0 +1,30 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "19:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: chromedriver
+    versions:
+    - 87.0.4
+    - 89.0.0
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.12.10
+    - 7.12.16
+    - 7.13.8
+  - dependency-name: "@babel/runtime"
+    versions:
+    - 7.12.5
+  - dependency-name: wd
+    versions:
+    - 1.13.0
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
